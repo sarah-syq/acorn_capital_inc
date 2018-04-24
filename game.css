@@ -1,0 +1,513 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.fit { /* set relative picture size */
+	max-width: 77%;
+	max-height: 100%;
+}
+.center {
+	display: block;
+	margin: auto;
+}
+.font {
+	color: #f86d36;
+	font-family: 'Luckiest Guy', cursive;
+}
+.font_hint {
+	font-size: 2.5vw;
+	color: #ede34b;
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow: 2px 2px 8px #000000;
+}
+.mid-right-hint {
+	position: absolute;
+	top: 28%;
+	width: 35%;
+	left: 16%;
+}
+#time {
+	font-size: 4vw;
+	position: absolute;
+	top: 2%;
+	width: 35%;
+	left: 2%;
+	text-shadow: 2px 2px 8px #000000;
+}
+.acorns {
+	opacity: 0;
+}
+#red_acorn1 {
+	position: absolute;
+	top: 20%;
+    max-width: 5%;
+    left: 20%;
+}
+#red_acorn2 {
+	position: absolute;
+	top: 50%;
+    max-width: 5%;
+    left: 35%;
+}
+#red_acorn3 {
+	position: absolute;
+	top: 25%;
+    max-width: 5%;
+    left: 34%;
+}
+#red_acorn4 {
+	position: absolute;
+	top: 5%;
+    max-width: 5%;
+    left: 40%;
+}
+#green_acorn1 {
+	position: absolute;
+	top: 29%;
+    max-width: 5%;
+    left: 50%;
+}
+#green_acorn2 {
+	position: absolute;
+	top: 45%;
+    max-width: 5%;
+    left: 18%;
+}
+#green_acorn3 {
+	position: absolute;
+	top: 40%;
+    max-width: 5%;
+    left: 27%;
+}
+#gold_acorn1 {
+	position: absolute;
+	top: 20%;
+    max-width: 5%;
+    left: 40%;
+}
+#gold_acorn2 {
+	position: absolute;
+	top: 35%;
+    max-width: 5%;
+    left: 22%;
+}
+#gold_acorn3 {
+	position: absolute;
+	top: 50%;
+    max-width: 5%;
+    left: 45%;
+}
+#blue_acorn1 {
+	position: absolute;
+	top: 40%;
+    max-width: 5%;
+    left: 40%;
+}
+#blue_acorn2 {
+	position: absolute;
+	top: 15%;
+    max-width: 5%;
+    left: 30%;
+}
+#blue_acorn3 {
+	position: absolute;
+	top: 58%;
+    max-width: 5%;
+    left: 25%;
+}
+
+#score_red_acorn {
+	position: absolute;
+	top: 22%;
+    max-width: 5%;
+    right: 32%;
+}
+#score_green_acorn {
+	position: absolute;
+	top: 35%;
+    max-width: 5%;
+    right: 32%;
+}
+#score_gold_acorn {
+	position: absolute;
+	top: 48%;
+    max-width: 5%;
+    right: 32%;
+}
+#score_blue_acorn {
+	position: absolute;
+	top: 61%;
+    max-width: 5%;
+    right: 32%;
+}
+.fontX {
+	color: #f86d36;
+	font-family: 'Luckiest Guy', cursive;
+}
+#x1 {
+	font-size: 3vw;
+	position: absolute;
+	top: 27%;
+    right: 28%;
+}
+#x2 {
+	font-size: 3vw;
+	position: absolute;
+	top: 40%;
+    right: 28%;
+}
+#x3 {
+	font-size: 3vw;
+	position: absolute;
+	top: 53%;
+    right: 28%;
+}
+#x4 {
+	font-size: 3vw;
+	position: absolute;
+	top: 66%;
+    right: 28%;
+}
+#red_num{
+	font-size: 4vw;
+	position: absolute;
+	top: 26%;
+    right: 23%;
+}
+#green_num {
+	font-size: 4vw;
+	position: absolute;
+	top: 39%;
+    right: 23%;
+}
+#gold_num {
+	font-size: 4vw;
+	position: absolute;
+	top: 52%;
+    right: 23%;
+}
+#blue_num {
+	font-size: 4vw;
+	position: absolute;
+	top: 65%;
+    right: 23%;
+}
+
+.bottom_btn {
+	-webkit-border-radius: 18;
+	-moz-border-radius: 18;
+	border-radius: 18px;
+	-webkit-box-shadow: 0px 0px 26px #ede34b;
+	-moz-box-shadow: 0px 0px 26px #ede34b;
+	box-shadow: 0px 0px 26px #ede34b;
+	font-family: 'Luckiest Guy', cursive;
+	color: #000000;
+	font-size: 2vw;
+	background: #d1c3b8;
+	text-decoration: none;
+	border: transparent;
+}
+#saving_btn {
+	position: absolute;
+	bottom: 1.5%;
+	right: 22%;
+	max-width: 100%;
+	padding: 13px 18px 13px 18px;
+}
+#invest_btn {
+	position: absolute;
+	bottom: 1.5%;
+	right: 12%;
+	max-width: 100%;
+	padding: 13px 21px 13px 21px;
+	
+}
+.side_btn {
+	-webkit-border-radius: 18;
+	-moz-border-radius: 18;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 26px #ede34b;
+	-moz-box-shadow: 0px 0px 26px #ede34b;
+	box-shadow: 0px 0px 26px #ede34b;
+	font-family: 'Luckiest Guy', cursive;
+	color: #000000;
+	font-size: 2vw;
+	background: #d1c3b8;
+	text-decoration: none;
+	border: transparent;
+}
+#side_bar_saving {
+	position: absolute;
+	top: 30%;
+	right: 11.5%;
+	padding: 35px 5px 35px 5px;
+	background: #ede34b;
+}
+#side_bar_invest {
+	position: absolute;
+	top: 44%;
+	right: 11.5%;
+	padding: 35px 5px 35px 5px;
+	background: #ede34b;
+}
+
+.bottom_btn:hover {
+	background: #ede34b;
+	text-decoration: none;
+}
+.overlay {
+    height: 89%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    right: 11.5%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #f86d36;
+    display: block;
+    transition: 0.3s;
+}
+
+.closebtn{
+	color:#d1c3b8;
+	z-index: 2;
+}
+
+.closebtn:hover, .closebtn:focus {
+    color: #ede34b;
+    text-shadow: 0px 0px 30px #ede34b;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+.menu_font {
+	font-size: 1.8vw;
+	color: #f86d36;
+	font-family: 'Luckiest Guy', cursive;
+}
+#total_save {
+	position: absolute;
+	top: 113%;
+	right: 35%;
+}
+#interest {
+	position: absolute;
+	top: 460%;
+	right:40%;
+}
+#saving_acorn_r{
+	position: absolute;
+	top: 175%;
+    max-width: 10%;
+    right: 77%;
+}
+#saving_acorn_g{
+	position: absolute;
+	top: 175%;
+    max-width: 10%;
+    right: 38%;
+}
+#saving_acorn_go{
+	position: absolute;
+	top: 280%;
+    max-width: 10%;
+    right: 77%;
+}
+#saving_acorn_b{
+	position: absolute;
+	top: 280%;
+    max-width: 10%;
+    right: 38%;
+}
+#x_red {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 220%;
+    right: 68%;
+}
+#red_acorn_saving {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 220%;
+    right: 60%;
+}
+#x_green {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 220%;
+    right: 29%;
+}
+#green_acorn_saving {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 220%;
+    right: 21%;
+}
+#x_gold {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 310%;
+    right: 68%;
+}
+#gold_acorn_saving {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 310%;
+    right: 60%;
+}
+#x_blue {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 310%;
+    right: 29%;
+}
+#blue_acorn_saving {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 310%;
+    right: 21%;
+}
+#interest_acorn {
+	position: absolute;
+	top: 530%;
+    max-width: 20%;
+    right: 58%;
+}
+#x_interest {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 610%;
+    right: 48%;
+}
+#interest_acorn_num {
+	font-size: 2.5vw;
+	position: absolute;
+	top: 610%;
+    right: 35%;
+}
+#invest_acorn {
+	position: absolute;
+	font-size: 1.8vw;
+	top: 130%;
+    right: 50%;
+}
+#invest_acorn_num {
+	font-size: 2.2vw;
+	position: absolute;
+	top: 126%;
+    right: 28%;
+}
+#tree_grow {
+	position: absolute;
+	font-size: 3vw;
+	top: 420%;
+    right: 13%;
+}
+#wait {
+	position: absolute;
+	font-size: 3vw;
+	top: 500%;
+    right: 26%;
+}
+#not_enough_acorns1 {
+	position: absolute;
+	font-size: 3vw;
+	top: 420%;
+    right: 13%;
+}
+#not_enough_acorns2 {
+	position: absolute;
+	font-size: 3vw;
+	top: 500%;
+    right: 26%;
+}
+#invest-status {
+	display: none;
+}
+#invest-prompt {
+	display: none;
+}
+#invest-outcome {
+	display: none;
+}
+#invest_return {
+	position: absolute;
+	font-size: 2.2vw;
+	top: 910%;
+    right: 40%;
+}
+#invest_return_num {
+	position: absolute;
+	font-size: 3.2vw;
+	top: 900%;
+    right: 21%;
+}
+#invest-outcome {
+	position: absolute;
+	max-width: 50%; 
+	top: 270%;
+    right: 26%;
+}
+#return_tosaving_btn {
+	-webkit-border-radius: 18;
+	-moz-border-radius: 18;
+	border-radius: 18px;
+	-webkit-box-shadow: 0px 0px 26px #ede34b;
+	-moz-box-shadow: 0px 0px 26px #ede34b;
+	box-shadow: 0px 0px 26px #ede34b;
+	font-family: 'Luckiest Guy', cursive;
+	color: #f86d36;
+	font-size: 2vw;
+	background: gray;
+	text-decoration: none;
+	border: transparent;
+	position: absolute;
+	top: 1100%;
+    right: 11%;
+	max-width: 100%;
+	padding: 13px 18px 13px 18px;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
