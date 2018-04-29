@@ -30,6 +30,7 @@
 	top: 28%;
 	width: 35%;
 	left: 16%;
+	z-index: 2;
 }
 #time {
 	font-size: 4vw;
@@ -215,16 +216,16 @@
 #saving_btn {
 	position: absolute;
 	bottom: 1.5%;
-	right: 22%;
+	right: 24%;
 	max-width: 100%;
-	padding: 13px 18px 13px 18px;
+	padding: 1% 1.5% 1% 1.5%
 }
 #invest_btn {
 	position: absolute;
 	bottom: 1.5%;
-	right: 12%;
+	right: 13%;
 	max-width: 100%;
-	padding: 13px 21px 13px 21px;
+	padding: 1% 1.7% 1% 1.7%
 	
 }
 .side_btn {
@@ -245,14 +246,14 @@
 	position: absolute;
 	top: 30%;
 	right: 11.5%;
-	padding: 35px 5px 35px 5px;
+	padding: 2.7% 0.4% 2.7% 0.4%;
 	background: #ede34b;
 }
 #side_bar_invest {
 	position: absolute;
 	top: 44%;
 	right: 11.5%;
-	padding: 35px 5px 35px 5px;
+	padding: 2.7% 0.4% 2.7% 0.4%;
 	background: #ede34b;
 }
 
@@ -284,7 +285,7 @@
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 3vw;
     color: #f86d36;
     display: block;
     transition: 0.3s;
@@ -304,7 +305,7 @@
     position: absolute;
     top: 10px;
     right: 20px;
-    font-size: 50px;
+    font-size: 3vw;
 }
 
 @media screen and (max-height: 450px) {
@@ -364,7 +365,7 @@
 	font-size: 2.5vw;
 	position: absolute;
 	top: 220%;
-    right: 60%;
+    right: 55%;
 }
 #x_green {
 	font-size: 2.5vw;
@@ -376,7 +377,7 @@
 	font-size: 2.5vw;
 	position: absolute;
 	top: 220%;
-    right: 21%;
+    right: 17%;
 }
 #x_gold {
 	font-size: 2.5vw;
@@ -388,7 +389,7 @@
 	font-size: 2.5vw;
 	position: absolute;
 	top: 310%;
-    right: 60%;
+    right: 55%;
 }
 #x_blue {
 	font-size: 2.5vw;
@@ -400,7 +401,7 @@
 	font-size: 2.5vw;
 	position: absolute;
 	top: 310%;
-    right: 21%;
+    right: 17%;
 }
 #interest_acorn {
 	position: absolute;
@@ -454,7 +455,8 @@
 	position: absolute;
 	font-size: 3vw;
 	top: 500%;
-    right: 26%;
+	width: 80%;
+    right: 14%;
 }
 #invest-status {
 	display: none;
@@ -468,13 +470,13 @@
 #invest_return {
 	position: absolute;
 	font-size: 2.2vw;
-	top: 910%;
+	top: 900%;
     right: 40%;
 }
 #invest_return_num {
 	position: absolute;
 	font-size: 3.2vw;
-	top: 900%;
+	top: 890%;
     right: 21%;
 }
 #invest-outcome {
@@ -497,7 +499,7 @@
 	text-decoration: none;
 	border: transparent;
 	position: absolute;
-	top: 1100%;
+	top: 1000%;
     right: 11%;
 	max-width: 100%;
 	padding: 13px 18px 13px 18px;

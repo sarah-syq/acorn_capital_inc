@@ -21,14 +21,15 @@ function startTimer(duration, display) {
 }
 
 function click_hint() {
-	// document.getElementById("clickhint").innerHTML="";
-	$("#clickhint").html("");
+	if ($("#clickhint").html() != "") {
+        $("#clickhint").html("");
     
-    var twoMinutes = 60 * 5,
-        display = document.querySelector('#time');
-    startTimer(twoMinutes, display);
+        var twoMinutes = 60 * 5,
+            display = document.querySelector('#time');
+        startTimer(twoMinutes, display);
     
-	repeat_gen_acorn();
+        repeat_gen_acorn();
+    }
 }
 function repeat_gen_acorn() {
   	var nIntervId = setInterval(generate_acorn, 3000);
